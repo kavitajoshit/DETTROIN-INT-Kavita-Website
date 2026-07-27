@@ -1,0 +1,14 @@
+{
+  "name": "vasant-valley-portal",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "server": "npm run dev --prefix server"
+  },
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
+}
